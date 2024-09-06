@@ -11,6 +11,7 @@ def get_bag():
             "C": 2, "M": 2, "P": 2, "F": 2, "H": 2, "V": 2, "W": 2, "Y": 2, "K": 1, "J": 1, "X": 1, "Q": 1, "Z": 1}
 
 
+@pytest.fixture
 def get_half_bag():
     return {"E": 2, "A": 2, "I": 2, "O": 2, "N": 2, "R": 2, "T": 1}
 
